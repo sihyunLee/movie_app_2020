@@ -15,7 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build ",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,5 +34,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/sihyunLee/movie_app_2020"
+  "homepage": "https://sihyunLee.github.io/movie_app_2020/"
 }
